@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_kingmax67_antiscam_1739053607400-push-trigger-input-set
+  identifier: Build_kingmax67_antiscam_1739053607400pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: King
+  pipeline:
+    identifier: Build_kingmax67_antiscam_1739053607400
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
